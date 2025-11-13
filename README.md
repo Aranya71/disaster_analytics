@@ -1,16 +1,17 @@
-# disaster_analytics
+# Disaster Management App (Flutter + GetX)
 
-A new Flutter project.
+A lightweight disaster management app with real‑time alerts, emergency actions, AI chat guidance, and reporting.
 
-## Getting Started
+## Features
+- Home Dashboard: real‑time climate updates, risk level, alerts, map view, shortcuts.
+- Alert Screen: live, color‑coded warnings (Red/High, Orange/Medium), push + voice alerts.
+- Emergency Button: one‑tap Police/Fire/Ambulance/Hospital/NGO with location sharing.
+- Chat Agent: AI assistant with quick replies (What to do, Report a problem, Contact team).
+- Report & Instruction: incident report with image + GPS and safety instructions.
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter, Dart, GetX (state, routes, DI)
+- Android (Kotlin/Java, Gradle), iOS optional
+- Optional: `flutter_local_notifications`, geolocation/maps, TTS
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
